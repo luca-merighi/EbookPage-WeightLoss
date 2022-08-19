@@ -1,0 +1,47 @@
+#ebook-about {
+    background-color: var(--white-2);
+    padding: 2rem 1rem;
+    padding-bottom: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.question h4 {
+    color: var(--dark-1);
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.question p {
+    color: var(--dark-2);
+}
+
+@media(min-width: 768px) {
+    #ebook-about {
+        padding: 3rem 1.5rem 6rem 1.5rem;
+    }
+        
+    .question p {
+        width: 75%;
+    }
+}
+
+@media(min-width: 860px) {
+    #ebook-about {
+        padding: 3rem 1.5rem 8rem 1.5rem;
+    }
+}
+
+@media(min-width: 900px) {
+    #ebook-about {
+        padding: 3rem 1.5rem 10rem 1.5rem;
+    }
+}
+
+@media(min-width: 1024px) {
+    .question p {
+        width: 65%;
+    }
+}

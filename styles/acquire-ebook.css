@@ -1,0 +1,96 @@
+#acquire-ebook {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    background: url('../image/bg-inverted.svg') no-repeat top right;
+}
+
+.acquire-ebook-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.acquire-ebook-header h3 {
+    color: var(--white-1);
+}
+
+.acquire-ebook-header p {
+    color: var(--white-2);
+    opacity: 0.75;
+}
+
+.payment-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.payment-methods h4 {
+    color: var(--white-1);
+}
+
+.payment-methods-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.payment-methods-list li {
+    color: var(--white-2);
+}
+
+.whatsapp-button {
+    text-decoration: none;
+    background-color: #22c55e;
+    padding: 0.875rem 1.875rem;
+    color: var(--white-1);
+    font-weight: 700;
+
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+
+    border-radius: 0.25rem;
+    transition: 0.3s;
+}
+
+.whatsapp-button img {
+    width: 1.875rem;    
+}
+
+.whatsapp-button:hover {
+    filter: brightness(0.9);
+    transform: translateY(5px);
+}
+
+@media(min-width: 768px) {
+    #acquire-ebook {
+        background-size: 100%;
+        background-position: bottom right;
+        padding: 3rem 1.5rem;
+    }   
+}
+
+@media(min-width: 1024px) {
+    .whatsapp-button {
+        padding: 1rem 2.5rem;
+    }
+}
+
+@media(min-width: 1310px) {
+    #acquire-ebook {
+        padding-left: 2rem;   
+        padding-right: 2rem;   
+    }
+
+    .whatsapp-button {
+        padding: 1rem 3rem;
+        gap: 0.5rem;
+    }
+}

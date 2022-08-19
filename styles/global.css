@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --white-1: #e7e5e4;
+    --white-2: #f0f0f0;
+    --bg: #f1f3f5;
+
+    --dark-1: #292524;
+    --dark-2: #44403c;
+    --dark-transparent: #78716cbf;
+
+    --yellow-1: #facc15;
+}
+
+body {
+    background: url('../image/bg.svg') no-repeat top;
+    background-size: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+.back-to-top-button {
+    position: fixed;
+    z-index: 5;
+    bottom: 1rem;
+    right: 1rem;
+
+    opacity: 0;
+    visibility: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: var(--yellow-1);
+    border: 1px solid var(--dark-2);
+    border-radius: 50%;
+
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+
+.back-to-top-button.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0%);
+}
+
+@media(min-width: 500px) {
+    main {
+        padding: 2rem 0;
+    }
+}

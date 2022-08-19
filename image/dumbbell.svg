@@ -1,0 +1,7 @@
+<svg width="68" height="40" viewBox="0 0 68 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="3" width="16" height="40" rx="6" fill="#FACC15"/>
+<rect x="49" width="16" height="40" rx="6" fill="#FACC15"/>
+<rect width="30" height="10" transform="translate(19 15)" fill="#FACC15"/>
+<path d="M0 18C0 16.3431 1.34315 15 3 15V15V25V25C1.34315 25 0 23.6569 0 22V18Z" fill="#FACC15"/>
+<path d="M65 15V15C66.6569 15 68 16.3431 68 18V22C68 23.6569 66.6569 25 65 25V25V15Z" fill="#FACC15"/>
+</svg>

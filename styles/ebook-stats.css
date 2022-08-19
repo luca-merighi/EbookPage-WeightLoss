@@ -1,0 +1,53 @@
+.ebook-stats {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 0.875rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.stats-container {
+    padding: 1rem;
+    margin-top: -2.5rem;
+    background-color: var(--dark-2);
+
+    display: flex;
+    flex-direction: row;
+    gap: 0.875rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25rem;
+}
+
+.stat-card {
+    background-color: var(--dark-transparent);
+    padding: 0.5rem;
+
+    border-radius: 0.25rem;
+}
+
+.stat-card span {
+    color: var(--yellow-1);
+    font-weight: 700;
+}
+
+.stat-card p {
+    color: var(--yellow-1);
+    font-weight: 400;
+}
+
+@media(min-width: 768px) {
+    .ebook-stats {
+        padding: 1.5rem 2rem;
+    }
+
+    .stats-container {
+        margin-top: -4.5rem;
+    }
+
+    .stat-card {
+        padding: 0.875rem;
+    }
+}
